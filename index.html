@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="#includeroom => @jamesamuli.github">
-    <meta name="Description" content="Arzi beverages is a beverages company with the goal of improving wellbeing and provide healthy beverages to the community">
+    <meta name="Description"
+        content="Arzi beverages is a beverages company with the goal of improving wellbeing and provide healthy beverages to the community">
     <link rel="stylesheet" href="./styles/index.css">
     <title>Arzi-Beverage</title>
 
@@ -36,7 +37,11 @@
     </main>
 
     <footer>
-        <p>Copyright © 2023 Arzi-Beverage Operating Company. All Rights Reserved.</p>
+        <p>Copyright © Arzi <span id="year"></span>
+            <script>
+                document.getElementById("year").innerHTML = new Date().getFullYear();
+            </script> Operating Company. All Rights Reserved.
+        </p>
     </footer>
 </body>
 
