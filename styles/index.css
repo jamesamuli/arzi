@@ -45,8 +45,8 @@ main>.wlco_txt_container {
 }
 
 .wlco_txt_container>img {
-    width: 400px;
-    height: 400px;
+    width: 250px;
+    height: 250px;
 }
 
 .wlco_txt_container>a {
@@ -57,8 +57,7 @@ main>.wlco_txt_container {
 }
 
 .sec-loading {
-    /* height: 10rem; */
-    margin-block: 3rem;
+    margin-block: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
